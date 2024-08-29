@@ -1,17 +1,30 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
-	
-	funcao inicio() // não esqueça de colocar as perguntas.
-	{
-	inteiro a = 1
-	inteiro b = -4
-	inteiro c = 4
 
+	inclua biblioteca Matematica --> mat
 	
+	funcao inicio()
+	{
+	inteiro a 
+	inteiro b 
+	inteiro c 
+ escreva ("Digite o valor de a?""\n")
+ leia (a)
+  escreva ("Digite o valor de b?""\n")
+ leia (b) 
+ escreva ("Digite o valor de c?""\n")
+ leia (c)
 	
 	inteiro delta = mat.potencia(b,2-4*a*c)
-        escreva (delta)
+     inteiro x1= -b+ mat.raiz(delta,2)/2*a
+     inteiro x2 = -b- mat.raiz (delta,2)/2*a
+     escreva ("a =", a,"\n")
+     escreva ("b =", b,"\n")
+     escreva ("c = ", c,"\n")
+     escreva ("delta = ", delta,"\n")
+     escreva ("X1 = ", x1,"\n")
+     escreva ("X2 = ", x2,"\n")
+     
 		 
 	}
 }
