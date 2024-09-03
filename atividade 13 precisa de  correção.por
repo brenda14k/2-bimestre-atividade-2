@@ -3,14 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro Cachorro_quente = 5.00*quant
-     inteiro Bauru = 2.60
-     inteiro Bauru_com_ovo= 3.80
-     inteiro Hamburger = 9.00
-    inteiro Cheeseburger = 11.00
-    inteiro Refrigerante = 3.00   
-    inteiro Semente_dos_Deuses= 1000.00
-    inteiro  quant
+	inteiro 100 = 5.00*quant
+     inteiro 101 = 2.60
+     inteiro 103 = 3.80
+     inteiro 104 = 9.00
+    inteiro 105 = 11.00
+    inteiro 106 = 3.00   
+    inteiro 107 = 1000.00
+    inteiro =  quant
      cadeia opcao
     
 
@@ -33,7 +33,7 @@ programa
            	caso(100):
            	
 
-           	escreva ("Seu pedido é ",quant, Cachoro_quente, "reais \n")
+           	escreva ("Seu pedido é ",quant, 100, "reais \n")
            	pare
            }
 
