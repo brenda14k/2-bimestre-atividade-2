@@ -3,23 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro Cachorro_quente = 5.00*quant
-     inteiro Bauru = 2.60
-     inteiro Bauru_com_ovo= 3.80
+	nteiro Bauru_com_ovo= 3.80
      inteiro Hamburger = 9.00
     inteiro Cheeseburger = 11.00
     inteiro Refrigerante = 3.00   
     inteiro Semente_dos_Deuses= 1000.00
-    inteiro  quant
-     cadeia opcao
+    inteiro  quantidade
+     inteiro opcao
     
-
-     escreva ("Quais dos itens acima gostaria de pedir?\n")
-           leia (opcao)
-     escreva ("Quanto gostaria de pedir?")
-            leia (quant)
-	
-		escreva("*************************************\n")
+escreva("*************************************\n")
           escreva("100	Cachorro quente 5.00 \n")
           escreva("101	Bauru 2.60 \n")
           escreva("102	Bauru com ovo 3.80 \n")
@@ -28,15 +20,34 @@ programa
           escreva("105	Refrigerante 3.00 \n")
           escreva ("106	Semente dos Deuses 1000.00 \n")
            escreva("*************************************\n")
+     escreva ("Quais dos itens acima gostaria de pedir: ")
+           leia (opcao)
+     escreva ("Quanto gostaria de pedir: ")
+            leia (quantidade)
+	
+		
         
            escolha(opcao){
            	caso(100):
            	
-
-           	escreva ("Seu pedido é ",quant, Cachoro_quente, "reais \n")
+                  inteiro calculo = (5.00* quantidade)
+                  se (quantidade >1){
+           	escreva ("Seu pedido é  ", quantidade," Cachorros quentes " , calculo , " reais \n")
+                  }
+           	senao se (quantidade == 1){
+                  escreva ("Seu pedido é  ", quantidade," Cachorro quente " , calculo , " reais \n")
+           	}
+           	}
+           
+           	
+           
+   escolha(opcao){
+           	caso(101):
+           	
+               real calculo_bauru = 2.60*quantidade
+           	escreva ("Seu pedido é ",quantidade, " Bauru ", calculo_bauru ," Bauru ", "reais \n")
            	pare
-           }
-
+	   }
            
 	}
 }
