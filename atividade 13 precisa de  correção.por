@@ -36,17 +36,25 @@ escreva("*************************************\n")
                   }
            	senao se (quantidade == 1){
                   escreva ("Seu pedido é  ", quantidade," Cachorro quente " , calculo , " reais \n")
+                 pare
            	}
            	}
            
            	
            
-   escolha(opcao){
+            escolha(opcao){
            	caso(101):
            	
                real calculo_bauru = 2.60*quantidade
-           	escreva ("Seu pedido é ",quantidade, " Bauru ", calculo_bauru ," Bauru ", "reais \n")
-           	pare
+           	escreva ("Seu pedido é ",quantidade, " Bauru ", calculo_bauru , "reais \n")     se (quantidade >1){
+           	escreva ("Seu pedido é  ", quantidade," baurus " , calculo_bauru, " reais \n")
+                  }
+
+           	senao se (quantidade == 1){
+                  escreva ("Seu pedido é  ", quantidade," bauru " , calculo_bauru , " reais \n")
+               pare
+           	}
+           	
 	   }
            
 	}
