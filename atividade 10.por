@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 	inteiro ano
-	
+	inteiro dia
 
 	escreva ("Digite um ano: ")
 	leia (ano)
@@ -16,11 +16,29 @@ programa
 	se (ano %4 ==0){
 		se (ano %100 ==0){
 			se (ano %400 == 0){
-				escreva ("Esse ano é bissexto")
-			}senao{ 
-				escreva (" esse não é bissexto")
-			        }
+				escreva (ano,"é uma ano bissexto tem 366 dias.")
+}
+senao
+     {
+				escreva (ano," não é bissexto tem 365 dias.")
+     }
 			        
+      senao
+      {
+                   
+                  escreva (ano," é um ano bissexto.")
+		 
+     }
+     senao
+     {
+     
+                  escreva (ano,"não é um ano bissexto.")
+
+
+		                 }
+			
+                  
+
 		                 }
 		
 	                         }
