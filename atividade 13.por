@@ -6,11 +6,6 @@ programa
 	
 	funcao inicio()
 	{
-
-     inteiro Hamburger = 9.00
-    inteiro Cheeseburger = 11.00
-    inteiro Refrigerante = 3.00   
-    inteiro Semente_dos_Deuses= 1000.00
     inteiro  quantidade
      inteiro opcao
     
